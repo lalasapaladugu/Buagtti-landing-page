@@ -1,1 +1,1 @@
-# Buagtti-landing-page
+# Bugatti-landing-page
