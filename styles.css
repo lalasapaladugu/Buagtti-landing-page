@@ -1,0 +1,275 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    animation: slideDown 1s ease-in-out;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav_logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.logo-image {
+    height: 50px; 
+    margin-right: 10px; 
+}
+
+
+.nav_menu {
+    display: flex;
+}
+
+.nav_list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav_item {
+    margin-left: 20px;
+}
+
+.nav_link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.nav_link:hover {
+    text-decoration: underline;
+}
+.main-home {
+    padding: 50px 20px;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.home_title {
+    font-size: 3em;
+    margin-bottom: 20px;
+    animation: bounceIn 2s ease-in-out;
+}
+
+.home_img img {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 5px;
+    animation: zoomIn 2s ease-in-out;
+}
+
+.home_information {
+    margin-top: 20px;
+}
+
+.home_subtitle {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.home_description {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box_medium,
+.box_small {
+    background-color: #333;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+    min-width: 50px;
+    animation: fadeInUp 2s ease-in-out;
+}
+
+.box_medium {
+    max-width: 250px;
+}
+
+.box--dark {
+    background-color: #444;
+}
+
+.icon-box {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.box_medium-title,
+.box_small-title {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.box_medium-description,
+.box_small-description {
+    font-size: 1em;
+}
+
+.box_medium-detail,
+.box_small-detail {
+    font-size: 0.8em;
+}
+
+.models {
+    display: none; 
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.models_title {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.models-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.model {
+    display: none; 
+    padding: 20px;
+}
+
+.model.active {
+    display: block; 
+}
+
+.model img {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+    animation: zoomIn 2s ease-in-out;
+}
+
+.model h3 {
+    font-size: 1.8em;
+    margin-top: 15px;
+}
+
+.model p {
+    font-size: 1.2em;
+}
+
+.models-controls {
+    margin-top: 20px;
+}
+
+.model-btn {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.model-btn:hover {
+    background-color: #444;
+}
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bounceIn {
+    0%,
+    20%,
+    40%,
+    60%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .nav_menu {
+        display: none;
+    }
+    
+    .nav_toggle {
+        display: block;
+        color: #fff;
+        font-size: 1.5em;
+    }
+
+    .home_img img {
+        width: 10%;
+    }
+
+    .box {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (min-width: 769px) {
+    .nav_toggle {
+        display: none;
+    }
+}

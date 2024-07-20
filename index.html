@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Landing Page</title>
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Ionicons CSS CDN -->
+  <link rel="stylesheet" href="https://unpkg.com/ionicons@5.5.2/dist/css/ionicons.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav bd-grid">
+        <div class="nav_logo">
+            <img src="https://th.bing.com/th/id/OIP.rWvyazZOVIeMDH5mDqkFHAHaFX?w=2560&h=1856&rs=1&pid=ImgDetMain" alt="" class="logo-image">
+            <span>BUGATTI</span>
+        </div>
+        
+        <div class="nav_menu" id="nav_menu">
+            <ul class="nav_list">
+                <li class="nav_item"><a href="#" class="nav_link" id="models-link">Models</a></li>
+                <li class="nav_item"><a href="#" class="nav_link">Brands</a></li>
+                <li class="nav_item"><a href="#" class="nav_link">Stores</a></li>
+                <li class="nav_item"><a href="#" class="nav_link">Experience</a></li>
+            </ul>
+        </div>
+        <div class="nav_toggle" id="nav_toggle">
+            <ion-icon name="menu-outline"></ion-icon>
+        </div>
+    </nav>
+  </header>
+  <main class="main-home">
+    <div class="home">
+        <h1 class="home_title">BUGATTI</h1>
+        <div class="home_img">
+            <img src="https://www.carscoops.com/wp-content/uploads/2020/03/Bugatti-Ultimate-Collection.jpg" alt="">
+        </div>
+        <div class="home_information">
+            <h2 class="home_subtitle">Bugatti Automobiles S.A.S. (1998–present)</h2>
+            <p class="home_description">Bugatti models are known to focus on design. Engine blocks were hand scraped to ensure that the surfaces were flat so that gaskets were not required for sealing. </p>
+        </div>
+        </div>
+    </div>
+    
+    <!-- Models Section -->
+    <div id="models-section" class="models">
+        <h2 class="models_title">OUR MODELS</h2>
+        <div id="models-container" class="models-container">
+            <!-- Model 1 -->
+             <div class="model active">
+                <img src="https://th.bing.com/th/id/R.a3a19bd0d476c4912b90173320c4c204?rik=eKs6hkXy5CJ0qw&riu=http%3a%2f%2funcrate.com%2fp%2f2016%2f02%2fbugatti-chiron-1.jpg&ehk=QCZ4iO5gor9Y6T8pL3VOLZ9kLljgpCtoQAmxkIIBwds%3d&risl=&pid=ImgRaw&r=0" alt="">
+                <h3>Bugatti Chiron</h3>
+                <h3>Chiron (2016-present)</h3>
+                <p>The Bugatti Chiron is a mid-engined, two-seated sports car, designed by Achim Anscheidt,developed as the successor to the Bugatti Veyron. The Chiron was first revealed at the Geneva Motor Show on March 1, 2016.
+                    In February 2024, Bugatti announced the successor to the Chiron, which will use a V16 hybrid-electric powertrain</p>
+                <div class="box">
+                    <div class="box_medium box--dark">
+                        <!-- Speedometer Icon -->
+                        <ion-icon name="speedometer-outline" class="icon-box"></ion-icon>
+                        <h3 class="box_medium-title d-inline">2.4</h3>
+                        <span class="box_medium-description d-block">Sec.</span>
+                        <span class="box_medium-detail">0-100 km/h</span>
+                      </div>
+                      <div>
+                        <div class="box_small box--dark">
+                          <!-- Top Speed Icon -->
+                          <ion-icon name="speedometer-outline" class="icon-box icon-box--small"></ion-icon>
+                          <h3 class="box_small-title d-inline">400</h3>
+                          <span class="box_small-description d-block">km/h</span>
+                          <span class="box_small-detail">Top speed</span>
+                        </div>
+                        <div class="box_small box--dark">
+                          <!-- Power Icon -->
+                          <ion-icon name="flash-outline" class="icon-box icon-box--small"></ion-icon>
+                          <h3 class="box_small-title d-inline">6,000</h3>
+                          <span class="box_small-description d-block">r.p.m</span>
+                          <span class="box_small-detail">Power</span>
+                        </div>
+                      </div>
+                </div>
+            </div>
+             
+            <div class="model active">
+                <img src="https://s1.cdn.autoevolution.com/images/news/very-last-bugatti-veyron-super-sport-ever-made-is-a-1184-hp-matte-black-stunner-162519_1.jpg" alt="Bugatti Veyron">
+                <h3>Bugatti Veyron</h3>
+                <h3>Veyron (2005-2015)</h3>
+                <p>The Bugatti Veyron is a high-performance sports car, known for its speed and luxury.<br>Bugatti Automobiles S.A.S. began assembling its first regular-production vehicle, the Bugatti Veyron 16.4 (the 1001 PS super car with an 8-litre W-16 engine with four turbochargers) in September 2005 at the Bugatti Molsheim</p>
+                <div class="box">
+                    <div class="box_medium box--dark">
+                      <!-- Speedometer Icon -->
+                      <ion-icon name="speedometer-outline" class="icon-box"></ion-icon>
+                      <h3 class="box_medium-title d-inline">2.5</h3>
+                      <span class="box_medium-description d-block">Sec.</span>
+                      <span class="box_medium-detail">0-100 km/h</span>
+                    </div>
+                    <div>
+                      <div class="box_small box--dark">
+                        <!-- Top Speed Icon -->
+                        <ion-icon name="speedometer-outline" class="icon-box icon-box--small"></ion-icon>
+                        <h3 class="box_small-title d-inline">407</h3>
+                        <span class="box_small-description d-block">km/h</span>
+                        <span class="box_small-detail">Top speed</span>
+                      </div>
+                      <div class="box_small box--dark">
+                        <!-- Power Icon -->
+                        <ion-icon name="flash-outline" class="icon-box icon-box--small"></ion-icon>
+                        <h3 class="box_small-title d-inline">1,200</h3>
+                        <span class="box_small-description d-block">r.p.m</span>
+                        <span class="box_small-detail">Power</span>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Model 2 -->
+            <div class="model">
+                <img src="https://www.hdcarwallpapers.com/walls/bugatti_divo_in_paris-HD.jpg" alt="Bugatti Divo">
+                <h3>Bugatti Divo</h3>
+                <h3>Divo (2019-2021)</h3>
+                <p>The Bugatti Divo is designed for agility and nimbleness, with enhanced aerodynamics and handling.<br>The car is 8.0 seconds quicker than the Chiron around the Nardò test track according to the manufacturer</p>
+                <div class="box">
+                    <div class="box_medium box--dark">
+                      <!-- Speedometer Icon -->
+                      <ion-icon name="speedometer-outline" class="icon-box"></ion-icon>
+                      <h3 class="box_medium-title d-inline">2.4</h3>
+                      <span class="box_medium-description d-block">Sec.</span>
+                      <span class="box_medium-detail">0-100 km/h</span>
+                    </div>
+                    <div>
+                      <div class="box_small box--dark">
+                        <!-- Top Speed Icon -->
+                        <ion-icon name="speedometer-outline" class="icon-box icon-box--small"></ion-icon>
+                        <h3 class="box_small-title d-inline">380</h3>
+                        <span class="box_small-description d-block">km/h</span>
+                        <span class="box_small-detail">Top speed</span>
+                      </div>
+                      <div class="box_small box--dark">
+                        <!-- Power Icon -->
+                        <ion-icon name="flash-outline" class="icon-box icon-box--small"></ion-icon>
+                        <h3 class="box_small-title d-inline">1,500</h3>
+                        <span class="box_small-description d-block">r.p.m</span>
+                        <span class="box_small-detail">Power</span>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Model 3 -->
+            <div class="model">
+                <img src="https://images.carexpert.com.au/resize/3000/-/app/uploads/2021/06/bugatti-la-voiture-noire-2.jpg" alt="Bugatti La Voiture Noire">
+                <h3>Bugatti La Voiture Noire</h3>
+                <h3> Prototype car (2019)</h3>
+                <p>The Bugatti La Voiture Noire is a unique, luxurious grand tourer with an elegant design.</p>
+                <div class="box">
+                    <div class="box_medium box--dark">
+                      <!-- Speedometer Icon -->
+                      <ion-icon name="speedometer-outline" class="icon-box"></ion-icon>
+                      <h3 class="box_medium-title d-inline">2.5</h3>
+                      <span class="box_medium-description d-block">Sec.</span>
+                      <span class="box_medium-detail">0-100 km/h</span>
+                    </div>
+                    <div>
+                      <div class="box_small box--dark">
+                        <!-- Top Speed Icon -->
+                        <ion-icon name="speedometer-outline" class="icon-box icon-box--small"></ion-icon>
+                        <h3 class="box_small-title d-inline">380</h3>
+                        <span class="box_small-description d-block">km/h</span>
+                        <span class="box_small-detail">Top speed</span>
+                      </div>
+                      <div class="box_small box--dark">
+                        <!-- Power Icon -->
+                        <ion-icon name="flash-outline" class="icon-box icon-box--small"></ion-icon>
+                        <h3 class="box_small-title d-inline">1,600</h3>
+                        <span class="box_small-description d-block">r.p.m</span>
+                        <span class="box_small-detail">Power</span>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Model 4 -->
+            <div class="model">
+                <img src="https://www.maxim.com/wp-content/uploads/2022/06/Bugatti-Centodieci-Promo.jpg" alt="Bugatti Centodieci">
+                <h3>Bugatti Centodieci</h3>
+                <h3>Centodieci (2020-present)</h3>
+                <p>The Bugatti Centodieci is a tribute to the legendary EB110, with a modern twist on its design and performance.<br>Based on the Chiron, the car takes design cues from the EB 110 such as the five round air intakes which resemble a diamond and the wedge shaped design language. A small horse shoe radiator grille present below the headlamps further harks back to the EB 110. Narrow headlights with LED daytime running function and sharp grooves are used to create an aggressive appearance.</p>
+                <div class="box">
+                    <div class="box_medium box--dark">
+                      <!-- Speedometer Icon -->
+                      <ion-icon name="speedometer-outline" class="icon-box"></ion-icon>
+                      <h3 class="box_medium-title d-inline">2.6</h3>
+                      <span class="box_medium-description d-block">Sec.</span>
+                      <span class="box_medium-detail">0-100 km/h</span>
+                    </div>
+                    <div>
+                      <div class="box_small box--dark">
+                        <!-- Top Speed Icon -->
+                        <ion-icon name="speedometer-outline" class="icon-box icon-box--small"></ion-icon>
+                        <h3 class="box_small-title d-inline">380</h3>
+                        <span class="box_small-description d-block">km/h</span>
+                        <span class="box_small-detail">Top speed</span>
+                      </div>
+                      <div class="box_small box--dark">
+                        <!-- Power Icon -->
+                        <ion-icon name="flash-outline" class="icon-box icon-box--small"></ion-icon>
+                        <h3 class="box_small-title d-inline">1,600</h3>
+                        <span class="box_small-description d-block">r.p.m</span>
+                        <span class="box_small-detail">Power</span>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="models-controls">
+            <button id="prev-model" class="model-btn">Previous</button>
+            <button id="next-model" class="model-btn">Next</button>
+        </div>
+    </div>
+    
+  </main>
+  <footer>
+      <!-- Footer content goes here -->
+  </footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Custom JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
